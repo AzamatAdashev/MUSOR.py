@@ -13,4 +13,6 @@ async def sorting(ctx):
 @bot.command()
 async def dirty(ctx):    
     await ctx.send(f'Если не сортировать мусор, природа будет загрязняться и мы все умрем.')
+async def example(ctx):
+    await ctx.send(f'В НБА за 1 трехочковый бросок сажают 1 дерево.')
 bot.run()
